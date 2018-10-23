@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
   <head>
 
@@ -43,24 +43,30 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a data-i18n="nav-idea" class="nav-link js-scroll-trigger" href="#idea"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a data-i18n="nav-project" class="nav-link js-scroll-trigger" href="#project"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a data-i18n="nav-supporters" class="nav-link js-scroll-trigger" href="#supporters"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+              <a data-i18n="nav-fundraising" class="nav-link js-scroll-trigger" href="#fundraising"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a data-i18n="nav-history" class="nav-link js-scroll-trigger" href="#history"></a>
+            </li>
+            <li class="nav-item">
+              <a data-i18n="nav-team" class="nav-link js-scroll-trigger" href="#team"></a>
+            </li>
+            <li class="nav-item">
+              <a data-i18n="nav-contact" class="nav-link js-scroll-trigger" href="#contact"></a>
             </li>
           </ul>
           <ul class="navbar-nav text-uppercase">
             <li class="nav-item dropdown">
-              <a href="#" data-i18n="lang-select" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language<span class="caret"></span></a>
+              <a href="#" data-i18n="lang-select" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span></a>
                 <ul class="dropdown-menu dropdown-menu-right" role="menu">                    
                   <li><a href="#" class="lang-switch px-2" data-locale="de"><img height="20" width="30" src="img/flags/de_DE.png" alt="Deutsch" />Deutsch</a></li>
                   <li><a href="#" class="lang-switch px-2" data-locale="en"><img height="20" width="30" src="img/flags/en_UK.png" alt="English" />English</a></li>
@@ -76,62 +82,86 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-heading-box">
-            <img src="img/logos/circleslogo.png" class="mobile-header-logo">
-            <div class="intro-heading"></div>
-            <div data-i18n="intro-subheading" class="intro-lead-in">A Basic Income on the Blockchain</div>
-            <a data-i18n="whitepaper-link" href="https://github.com/CirclesUBI/docs/blob/master/Circles.md" target="_blank" class="btn-header page-scroll btn">
-              Read the Whitepaper
+            <div data-i18n="intro-heading" class="intro-heading"></div>
+            <div data-i18n="intro-subheading" class="intro-lead-in"></div>
+            <a data-i18n="action-link" href="#idea" target="_blank" class="btn-header page-scroll btn">
             </a>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Services -->
-    <section id="services">
+    <!-- Idea -->
+    <section id="idea">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Services</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 data-i18n="idea-heading" class="section-heading text-uppercase"></h2>
+            <h3 data-i18n="idea-subheading" class="section-subheading text-muted"></h3>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-star fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 data-i18n="challenge-heading" class="service-heading"></h4>
+            <p data-i18n="challenge-subheading" class="text-muted"></p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 data-i18n="futurelab-heading" class="service-heading"></h4>
+            <p data-i18n="futurelab-subheading" class="text-muted"></p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-exchange-alt fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 data-i18n="interactive-heading" class="service-heading"></h4>
+            <p data-i18n="interactive-subheading" class="text-muted"></p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 data-i18n="offers-heading" class="service-heading"></h4>
+            <p data-i18n="offers-subheading" class="text-muted"></p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-euro-sign fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 data-i18n="across-heading" class="service-heading"></h4>
+            <p data-i18n="across-subheading" class="text-muted"></p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 data-i18n="interactive-heading" class="service-heading"></h4>
+            <p data-i18n="interactive-subheading" class="text-muted"></p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
+    <!-- Project Grid -->
+    <section class="bg-light" id="project">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 data-i18n="portfolio-heading" class="section-heading text-uppercase"></h2>
+            <h3 data-i18n="portfolio-subheading" class="section-subheading text-muted"></h3>
           </div>
         </div>
         <div class="row">
@@ -145,8 +175,8 @@
               <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h4 data-i18n="portfolio-1"></h4>
+              <p class="text-muted"></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -159,8 +189,8 @@
               <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
+              <h4 data-i18n="portfolio-2">Explore</h4>
+              <p class="text-muted"></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -173,133 +203,99 @@
               <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h4 data-i18n="portfolio-3">Finish</h4>
+              <p class="text-muted"></p>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
-            </div>
-          </div>
+          </div>          
         </div>
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about">
+
+    <!-- Fundraising -->
+    <section class="bg-light" id="fundraising">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 data-i18n="fundraising-heading" class="section-heading"></h2>
+            <h3 class="section-subheading text-muted">
+              <span data-i18n="fundraising-subheading"></span>              
+            </h3>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>December 2012</h4>
-                    <h4 class="subheading">Transition to Full Service</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
-                </div>
-              </li>
-            </ul>
+          <div class="progress-bg">
+            <div class="progress-bar">
+              <h3 class="raised">€1,000&nbsp;raised </h3>
+            </div>                
+            <h3 class="goal">Goal: €24,000</h3>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 data-i18n="partner-heading" class="section-heading"></h2>
+            <h3 class="section-subheading text-muted">
+              <span data-i18n="partner-subheading"></span>
+              <span data-i18n="partner-participate">Want to participate?</span>
+              <a data-i18n="contact" href="#contact" class="page-scroll">Contact us.</a>
+            </h3>
           </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <a href="https://consensys.net/" target="_blank">
+                <img src="img/logos/consensys.png" class="mx-auto rounded-circle" alt="">
+                <h4>ConsenSys</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <a href="http://dapphub.com/" target="_blank">
+                <img src="img/logos/dapphub.png" class="mx-auto rounded-circle" alt="">
+                <h4>DappHub</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <a href="https://www.meetup.com/Berlin-Basic-Income-Bedingungsloses-Grundeinkommen/" target="_blank">
+                <img src="img/logos/bbil.png" class="mx-auto rounded-circle" alt="">
+                <h4>Berlin Basic Income Lab</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- partners logos row 2 -->
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="team-member">
+              <a href="https://therules.org/" target="_blank">
+                <img src="img/logos/rules.png" class="mx-auto rounded-circle" alt="">
+                <h4>The Rules</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="team-member">
+              <a href="http://www.cafe-grundeinkommen.org/" target="_blank">
+                <img src="img/logos/cafe.png" class="mx-auto rounded-circle" alt="">
+                <h4>Café Grundeinkommen</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="illustration">
+        <div class="container">
         </div>
       </div>
     </section>
@@ -309,15 +305,89 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 data-i18n="team-heading" class="section-heading text-uppercase"></h2>
+            <h3 data-i18n="team-subheading" class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
+              <h4>Carlotta</h4>
+              <p class="text-muted">Role</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+              <h4>Matthias</h4>
+              <p class="text-muted">Role</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+              <h4>Michael</h4>
+              <p class="text-muted">Role</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Otto</h4>
               <p class="text-muted">Lead Designer</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
@@ -341,7 +411,7 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
+              <h4>Rainer</h4>
               <p class="text-muted">Lead Marketer</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
@@ -365,7 +435,7 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
+              <h4>Susanne</h4>
               <p class="text-muted">Lead Developer</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">

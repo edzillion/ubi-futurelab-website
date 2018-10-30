@@ -20,6 +20,8 @@ header {
 }
 
 #mainNav {
+  background-color: #000;
+  opacity: 0.7;
   // .navbar-toggler {
   //   .nav-item {
   //     .nav-link {
@@ -27,13 +29,13 @@ header {
   //     }
   //   }        
   // }
-  .navbar-nav {
-    .nav-item {
-      .nav-link {
-        color: black;
-      }
-    }
-  }
+  // .navbar-nav {
+  //   .nav-item {
+  //     .nav-link {
+  //       color: black;
+  //     }
+  //   }
+  // }
 }
 
 .navbar-shrink {

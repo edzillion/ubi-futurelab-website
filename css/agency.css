@@ -699,8 +699,9 @@ header .intro-text {
   text-shadow: 2px 2px 0px  #000, -2px -2px 0px  #000, 2px -2px 0px  #000, -2px 2px 0px  #000;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: black;
+#mainNav {
+  background-color: #000;
+  opacity: 0.7;
 }
 
 .navbar-shrink .navbar-nav .nav-item .nav-link {

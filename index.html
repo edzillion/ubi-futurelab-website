@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
   <head>
 
@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>UBI Future Lab</title>
+    <title>UBI FutureLab</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">UBI Future Lab</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">UBI FutureLab</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -64,7 +64,7 @@
               <a data-i18n="nav-contact" class="nav-link js-scroll-trigger" href="#contact"></a>
             </li>
           </ul>
-          <ul class="navbar-nav text-uppercase">
+          <!-- <ul class="navbar-nav text-uppercase">
             <li class="nav-item dropdown">
               <a href="#" data-i18n="lang-select" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span></a>
                 <ul class="dropdown-menu dropdown-menu-right" role="menu">                    
@@ -72,7 +72,7 @@
                   <li><a href="#" class="lang-switch px-2" data-locale="en"><img height="20" width="30" src="img/flags/en_UK.png" alt="English" />English</a></li>
                 </ul>           
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </nav>
@@ -80,12 +80,13 @@
     <!-- Header -->
     <header class="masthead">
       <div class="container">
-        <div class="intro-text">
+          <div class="intro-text">
           <div class="intro-heading-box">
             <div data-i18n="intro-heading" class="intro-heading"></div>
             <div data-i18n="intro-subheading" class="intro-lead-in"></div>
-            <a data-i18n="action-link" href="#idea" target="_blank" class="btn-header page-scroll btn">
-            </a>
+            <div data-i18n="action-link" class="intro-note"></div>
+            <!-- <a data-i18n="action-link" href="#idea" target="_blank" class="btn-header page-scroll btn">
+            </a> -->
           </div>
         </div>
       </div>
@@ -96,19 +97,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 data-i18n="idea-heading" class="section-heading text-uppercase"></h2>
+            <h2 data-i18n="idea-heading" class="section-heading"></h2>
             <h3 data-i18n="idea-subheading" class="section-subheading text-muted"></h3>
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-question-circle fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 data-i18n="challenge-heading" class="service-heading"></h4>
-            <p data-i18n="challenge-subheading" class="text-muted"></p>
-          </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -125,8 +118,6 @@
             <h4 data-i18n="interactive-heading" class="service-heading"></h4>
             <p data-i18n="interactive-subheading" class="text-muted"></p>
           </div>
-        </div>
-        <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -135,6 +126,8 @@
             <h4 data-i18n="offers-heading" class="service-heading"></h4>
             <p data-i18n="offers-subheading" class="text-muted"></p>
           </div>
+        </div>
+        <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -150,6 +143,14 @@
             </span>
             <h4 data-i18n="personal-heading" class="service-heading"></h4>
             <p data-i18n="personal-subheading" class="text-muted"></p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-question-circle fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 data-i18n="challenge-heading" class="service-heading"></h4>
+            <p data-i18n="challenge-subheading" class="text-muted"></p>
           </div>
         </div>
       </div>
@@ -170,42 +171,83 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <a href="https://consensys.net/" target="_blank">
-                <img src="img/logos/consensys.png" class="mx-auto rounded-circle" alt="">
-                <h4>ConsenSys</h4>
+          <div class="col-md-3 text-center">
+            <div class="supporters">
+              <a href="https://www.grundeinkommen-hamburg.de/" target="_blank">
+                <img src="img/logos/bgehh.png" class="mx-auto rounded-circle" alt="">
+                <h6>Hamburger<br> Netzwerk<br> Grundeinkommen</h6>
               </a>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <a href="http://dapphub.com/" target="_blank">
-                <img src="img/logos/dapphub.png" class="mx-auto rounded-circle" alt="">
-                <h4>DappHub</h4>
+          <div class="col-md-3 text-center">
+              <div class="supporters">
+                <a href="https://www.ubie.org/" target="_blank">
+                  <img src="img/logos/ubie.png" class="mx-auto rounded-circle" alt="">
+                  <h6>Unconditional<br> Basic Income<br> Europe</h6>
+                </a>
+              </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="supporters">
+              <a href="https://www.gls.de/privatkunden/gls-bank/ueber-uns/" target="_blank">
+                <img src="img/logos/GLS-Bank.png" class="mx-auto rounded-circle" alt="">
+                <h6>GLS Bank</h6>
               </a>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <a href="https://www.meetup.com/Berlin-Basic-Income-Bedingungsloses-Grundeinkommen/" target="_blank">
-                <img src="img/logos/bbil.png" class="mx-auto rounded-circle" alt="">
-                <h4>Berlin Basic Income Lab</h4>
-              </a>
-            </div>
+          <div class="col-md-3 text-center">
+              
           </div>
         </div>
-        <!-- supporters logos row 2 -->
         <div class="row">
-          <div class="col-sm-6">
-            <div class="team-member">
-              <a href="https://therules.org/" target="_blank">
-                <img src="img/logos/rules.png" class="mx-auto rounded-circle" alt="">
-                <h4>The Rules</h4>
-              </a>
-            </div>
+          <div class="col-md-3 text-center">
+             <!--  <span class="fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+              </span> -->
+              <div class="supporters">
+                  <img src="img/logos/man.png" class="mx-auto rounded-circle" alt="">
+                  <h5>Ihr Name</h5>
+                  <p class="text-muted">Ihr Text</p>
+                
+              </div>
           </div>
-
+          <div class="col-md-3 text-center">
+              <div class="supporters">
+                
+                  <img src="img/logos/woman.png" class="mx-auto rounded-circle" alt="">
+                  <h5>Ihr Name</h5>
+                  <p class="text-muted">Ihr Text</p>
+                
+              </div>
+          </div>
+          <div class="col-md-3 text-center">
+              <!--  <span class="fa-stack fa-4x">
+                   <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                   <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+               </span> -->
+               <div class="supporters">
+                   <img src="img/logos/man.png" class="mx-auto rounded-circle" alt="">
+                   <h5>Ihr Name</h5>
+                   <p class="text-muted">Ihr Text</p>
+                 
+               </div>
+           </div>
+           <div class="col-md-3 text-center">
+               <div class="supporters">
+                 
+                   <img src="img/logos/woman.png" class="mx-auto rounded-circle" alt="">
+                   <h5>Ihr Name</h5>
+                   <p class="text-muted">Ihr Text</p>
+                 
+               </div>
+           </div>
+           
+         </div>
+      
+      </div>
+        <!-- supporters logos row 2 -->
+        <!-- <div class="row">
           <div class="col-sm-6">
             <div class="team-member">
               <a href="http://www.cafe-grundeinkommen.org/" target="_blank">
@@ -214,7 +256,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="illustration">
         <div class="container">
@@ -234,12 +276,27 @@
       </div>
     </div>
     <div class="row">
-      <div class="progress-bg">
+      <div class="col-sm-4 mx-auto text-center">
+        <iframe frameborder="0" marginheight="0" marginwidth="0" src="https://www.betterplace-widget.org/projects/66416?l=de" width="100%" height="320" style="border: 0; padding:0; margin:0;">Informieren und spenden: <a href='https://www.betterplace.org/de/projects/66416-ubi-futurelab-die-erlebnisausstellung-zum-bedingungslosen-grundeinkommen' target='_blank'>„UBI-FutureLab - die Erlebnisausstellung zum Bedingungslosen Grundeinkommen“</a> auf betterplace.org öffnen.</iframe>
+        <br><div>Sie erhalten eine Spendenquittung von betterplace.</div><br>
+      </div>
+      <div class="col-sm-4 mx-auto text-center">
+          <h5>Für Ihre direkte Spende:</h5><br>
+          <h6 class="text-primary">Kontoinhaber<br>
+          Hamburger Netzwerk Grundeinkommen e.V.<br>
+          IBAN: DE49 430 609 672 008 366 700<br>
+          BIC: GENODEM1GLS<br>
+          GLS Gemeinschaftsbank</h6><br>
+          Wenn Sie als Verwendungszweck „Spende UBI FutureLab“ angeben, werden wir den Betrag anonym bei betterplace eintragen und Sie erhalten die Spendenquittung von uns.
+          
+      </div>
+        <!-- <div class="progress-bg">
         <div class="progress-bar">
           <h3 class="raised">€1,000&nbsp;raised </h3>
         </div>                
         <h3 class="goal">Goal: €24,000</h3>
-      </div> 
+      </div>  -->
+     
     </div>
   </div>
 </section>
@@ -250,7 +307,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 data-i18n="portfolio-heading" class="section-heading text-uppercase"></h2>
+            <h2 data-i18n="portfolio-heading" class="section-heading"></h2>
             <h3 data-i18n="portfolio-subheading" class="section-subheading text-muted"></h3>
           </div>
         </div>
@@ -306,16 +363,18 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 data-i18n="team-heading" class="section-heading text-uppercase"></h2>
-            <h3 data-i18n="team-subheading" class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 data-i18n="team-heading" class="section-heading"></h2>
+            <h3 class="section-subheading text-muted"><span data-i18n="team-subheading"></span>
+            <a data-i18n="team-link" href="http://www.grundeinkommen-hamburg.de/ueber_uns/ueber_uns.php" target='_blank' class="page-scroll">Contact us.</a>
+            </h3>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
               <h4>Susanne Barth</h4>
-              <p class="text-muted">Lead Developer</p>
+              <p class="text-muted">Lerntherapeutin und freischaffende Kulturpädagogin</p>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -339,7 +398,7 @@
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
               <h4>Matthias Pätzold</h4>
-              <p class="text-muted">Role</p>
+              <p class="text-muted">Reiseunternehmer und Eventmanager</p>
              <!--  <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -363,7 +422,7 @@
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
               <h4>Michael Scholz</h4>
-              <p class="text-muted">Role</p>
+              <p class="text-muted">ehem. Management-Consultant im Chemie-Vertrieb</p>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -387,9 +446,9 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/4.jpg" alt="">
               <h4>Otto Lüdemann</h4>
-              <p class="text-muted">Lead Designer</p>
+              <p class="text-muted">Hochschullehrer für Erziehungswissenschaften i.R.</p>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -411,9 +470,9 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/5.jpg" alt="">
               <h4>Rainer Ammermann</h4>
-              <p class="text-muted">Lead Marketer</p>
+              <p class="text-muted">IT-Sachbearbeiter im öffentlichen Dienst und Mitarbeiter in der solidarischen Ökonomie</p>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -437,7 +496,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            <p class="large text-muted"> </p>
           </div>
         </div>
       </div>
@@ -476,11 +535,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Kontakt</h2>
+            <h3 class="section-subheading text-muted"><a href="mailto:futurelab@bgehh.de">Schreiben Sie eine E-Mail an: futurelab@bgehh.de</a></h3>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-12">
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
               <div class="row">
@@ -512,7 +571,7 @@
               </div>
             </form>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -520,10 +579,10 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
-          <div class="col-md-4">
+          </div> -->
+          <!-- <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -541,14 +600,14 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </div> -->
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <a href="impressum.html" target='_blank'>Impressum</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
+                <a href="UBI FutureLab_Datenschutzerklaerung_2018.pdf" target='_blank'>Datenschutzerklärung</a>
               </li>
             </ul>
           </div>
@@ -572,18 +631,32 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase" data-i18n="modal-1-title">Project Name</h2>
+                  <p class="item-intro text-muted" data-i18n="modal-1-subheading">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <p data-i18n="">Im UBI FutureLab werden Sie sich als Besucher von Themeninsel zu Themeninsel bewegen und dabei in unterschiedliche Erlebnis- und Erkenntnisräume eintauchen.<br><br> 
+                    Vielleicht werden Sie dabei den Eindruck gewinnen, mehr Fragen als Antworten mitzunehmen. Doch es werden  I h r e  eigenen Fragen sein. Das Freiheitsversprechen des BGE wird für Sie zusammenfallen  mit  I h r e r  eigenen Suche nach Antworten!<br><br>
+                    Anderen mag die Idee des BGE spontan zusagen, möchten aber mehr erfahren. Sie werden möglichst fundierte und präzise Antworten erhalten auf Fragen wie: Welche gesellschaftlichen und politischen Ziele verfolgen die Befürworter eines BGE?  Was sagen kompetente Kritiker und Skeptiker dazu? Hält die Finanzierung eines so ehrgeizigen Projektes einer seriösen Prüfung stand? Ist ein BGE, angesichts von Zukunftsherausforderungen wie Digitalisierung, ökologischer Krise und Globalisierung ein realistischer gesamtgesellschaftlicher Lösungsansatz? Welcher ergänzender Maßnahmen bedarf es?<br><br>
+                    Ausgangspunkt der Ausstellungskonzeption sind daher die folgenden Themenbereiche:
+                    <ul>
+                      <li>Der Mensch als selbstbestimmte Basis der Demokratie</li>
+                      <li>Digitalisierung, Globalisierung und die Krise der Erwerbstätigkeit</li>
+                      <li>Mensch und Arbeit als vieldeutige Beziehung</li>
+                      <li>Prekariat und Armut</li>
+                      <li>Stationen des Grundeinkommens in Europa und der Welt</li>
+                      <li>Chancen eines Bedingungslosen Grundeinkommens für ein gemeinsames Europa</li>
+                      <li>Ökonomie, Ökologie und Finanzierungsmodelle eines BGE</li>
+                      <li>Vorstellungen von einem "Guten Leben"</li>
+                    </ul>                    
+                    </p>
+                  <!-- <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Threads</li>
                     <li>Category: Illustration</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  </ul> -->
+                  <p class="text-center"><button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Schließen</button></p>
                 </div>
               </div>
             </div>
@@ -606,18 +679,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase" data-i18n="modal-2-title">Project Name</h2>
+                  <p class="item-intro text-muted" data-i18n="modal-2-subheading">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <p data-i18n="">Die Kölner Agentur <a href="https://www.factsfiction.de" target="_blank">facts & fiction</a> ist hochmotiviert und bereit, das Projekt in Kooperation mit uns zu verwirklichen.<br><br> Gestützt auf eine visualisierte Austellungskonzeption soll in der Folge eine Sponsoring- und / oder Crowdfunding-Kampagne starten, um für die Produktion des UBI FutureLab die erforderliche Summe in der Größenordnung eines sechsstelligen Betrags einzusammeln.</p>
+                  <!-- <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Explore</li>
                     <li>Category: Graphic Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
+                  </ul> -->
+                  <p class="text-center"><button class="btn btn-primary" data-dismiss="modal" type="button">
+                      <i class="fas fa-times"></i>
+                      Schließen</button></p>
                 </div>
               </div>
             </div>
@@ -640,18 +713,18 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase" data-i18n="modal-3-title">Project Name</h2>
+                  <p class="item-intro text-muted" data-i18n="modal-3-subheading">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <p data-i18n="">Die Umsetzung dieser Erlebnisausstellung braucht ideelle und vor allem finanzielle Unterstützer und Unterstützerinnen! <h6>Mit 1 Euro aufwärts sind Sie dabei!</h6> Hierzu haben wir <a href="https://www.betterplace.org/de/projects/66416-ubi-futurelab-die-erlebnisausstellung-zum-bedingungslosen-grundeinkommen?utm_source=project_widget&utm_medium=project_66416&utm_campaign=widget" target="_blank">diese Spendenseite bei betterplace</a> eingerichtet.<br> Auch größere Beiträge sind herzlich willkommen.<br><br> Sie erhalten eine steuerabzugsfähige Spendenquittung.<br><br> Die Finanzierung dieses Projektes stützt sich auf den solidarischen Beitrag von größeren EinzelspenderInnen, auf eine Kampagne bei der jeder/ jede auch mit einem kleinen Beitrag mitwirken kann und die Zusammenarbeit mit renommierten Institutionen und Stiftungen.<br><br> Seien Sie dabei, diesen lebendigen Raum der Inspiration und des Austausches über das BGE zu ermöglichen!</p>
+                  <!-- <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Finish</li>
                     <li>Category: Identity</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
+                  </ul> -->
+                  <p class="text-center"><button class="btn btn-primary" data-dismiss="modal" type="button">
+                      <i class="fas fa-times"></i>
+                      Schließen</button></p>
                 </div>
               </div>
             </div>
@@ -660,7 +733,7 @@
       </div>
     </div>
 
-    <!-- Modal 4 -->
+    <!-- <!-- Modal 4 -->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -760,7 +833,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
